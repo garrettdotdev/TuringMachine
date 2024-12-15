@@ -1,0 +1,56 @@
+# Ignore the .idea directory (for JetBrains IDEs like PhpStorm, IntelliJ, etc.)
+.idea/
+
+# Ignore node modules (if applicable)
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore vendor directory (if using Composer for PHP dependencies)
+vendor/
+
+# Ignore log files
+*.log
+*.log.*
+
+# Ignore compiled output (like cache or build files)
+build/
+dist/
+coverage/
+
+# Ignore system files (like macOS .DS_Store)
+.DS_Store
+
+# Ignore temporary files from editors or OS
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Ignore package lock files (if applicable)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.override.yml
+.docker/
+
+# Ignore PHPUnit cache (if running PHPUnit tests)
+.phpunit.result.cache
+
+# Ignore Composer lock files (if you don't want to version lock dependencies)
+composer.lock
+
+# Ignore Laravel files (if applicable)
+storage/
+public/hot
+public/storage
+node_modules/
+npm-debug.log
+yarn-error.log
+homestead.yaml
+homestead.json
